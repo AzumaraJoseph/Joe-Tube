@@ -23,15 +23,6 @@ playVideo = () => {
   }
 };
 
-// videoContainer.addEventListener("mouseover", () => {
-//   playVideo();
-// });
-// videoContainer.addEventListener("mouseout", () => {
-//   if (userHasInteracted) {
-//     video.pause();
-//   }
-// });
-
 const vids = [
   {
     id: 'VID0001',
@@ -114,9 +105,6 @@ const vids = [
   },
 ];
 
-// for (const vid of vids) {
-    
-// }
 //--${i + 1}
 const initialHomeVideo = () => {
     let homeVideoMarkup = "";

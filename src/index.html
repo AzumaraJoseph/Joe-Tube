@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300&display=swap" rel="stylesheet">       
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="img/youtube.png" type="image/x-icon">
+        <title>Joe-Tube</title>
+    </head>
+
+    <body class="body">
+        <section class="header">
+            <div class="header header__field" title="Menu">
+                <svg class="header header__menu">
+                    <use href="img/icons.svg#icon-menu"></use>
+                </svg>
+            </div>
+    
+            <img src="img/logo.png" alt="Logo" class="header__logo">
+    
+            <input type="text" placeholder="Search" class="search__input">
+            <button class="btn search__btn" type="submit" title="Search">
+                <svg class="search__icon">
+                    <use href="img/icons.svg#icon-search"></use>
+                </svg>
+            </button>
+    
+            <div class="icon">
+                <div class="icon__field icon__field--mic" title="Mic">
+                    <svg class="icon__field--mic-1">
+                        <use href="img/icons.svg#icon-mic"></use>
+                    </svg>
+                </div>
+                <div class="icon__field" title="New Video">
+                    <svg class="icon__vid">
+                        <use href="img/icons.svg#icon-video"></use>
+                    </svg>
+                </div>
+                <div class="icon__field" title="Notifications">
+                    <svg class="icon__notification">
+                        <use href="img/icons.svg#icon-notifications-outline"></use>
+                    </svg>
+                    <span>9+</span>
+                </div>
+            </div>          
+            <img src="img/img-1.jpeg" alt="user" class="header__user" title="User">
+        </section>
+
+        <div class="container" id="home">
+            <section class="navigation">
+                <div class="navigation__features">
+                    <div class="navigation__features--field navigation__features--field-active">
+                        <svg class="navigation__features--field-home">
+                            <use href="img/icons.svg#icon-home"></use>
+                        </svg>
+                        <span>Home</span>
+                    </div>
+                    <div class="navigation__features--field">
+                        <svg class="navigation__features--field-home">
+                            <use href="img/icons.svg#icon-film"></use>
+                        </svg>
+                        <span>Shorts</span>
+                    </div>
+                    <div class="navigation__features--field">
+                        <svg class="navigation__features--field-home">
+                            <use href="img/icons.svg#icon-subscriptions"></use>
+                        </svg>
+                        <span>Subscriptions</span>
+                    </div>
+                </div>
+        
+                <div class="navigation__features">
+                    <div class="navigation__features--field">
+                        <svg class="navigation__features--field-library">
+                            <use href="img/icons.svg#icon-video_library"></use>
+                        </svg>
+                        <span>Library</span>
+                    </div>
+        
+                    <div class="navigation__features--field">
+                        <svg class="navigation__features--field-history">
+                            <use href="img/icons.svg#icon-history"></use>
+                        </svg>
+                        <span>History</span>
+                    </div>
+        
+                    <div class="navigation__features--field">
+                        <svg class="navigation__features--field-vid">
+                            <use href="img/icons.svg#icon-display"></use>
+                        </svg>
+                        <span>Your videos</span>
+                    </div>             
+                    <div class="navigation__features--field">
+                        <svg class="navigation__features--field-later">
+                            <use href="img/icons.svg#icon-time"></use>
+                        </svg>
+                        <span>Watch Later</span>
+                    </div>             
+                    <div class="navigation__features--field">
+                        <svg class="navigation__features--field-vid">
+                            <use href="img/icons.svg#icon-thumbs-up"></use>
+                        </svg>
+                        <span>Liked videos</span>
+                    </div>             
+                </div>
+        
+                <div class="suggestions">
+                    <h2 class="suggestions__text">Subscriptions</h2>
+                    <div class="suggestions__field">
+                        <img src="img/img-1.jpeg" class="suggestions__pic" alt="suggetions pic">
+                        <span>Jossy</span>
+                        <span class="ticks">&nbsp;</span>
+                    </div>
+                    
+                    <div class="suggestions__field">
+                        <img src="img/img-2.jpg" class="suggestions__pic" alt="suggetions pic">
+                        <span>Tolulope</span>
+                        <span class="ticks">&nbsp;</span>
+                    </div>
+        
+                    <div class="suggestions__field">
+                        <img src="img/img-6.png" class="suggestions__pic" alt="suggetions pic">
+                        <span>Becky</span>
+                        <span class="ticks">&nbsp;</span>
+                    </div>
+        
+                    <div class="suggestions__field">
+                        <img src="img/img-5.jpg" class="suggestions__pic" alt="suggetions pic">
+                        <span>Judikay</span>
+                        <span class="ticks">&nbsp;</span>
+                    </div>
+        
+                    <div class="suggestions__field">
+                        <img src="img/img-3.jpg" class="suggestions__pic" alt="suggetions pic">
+                        <span>Anna claire</span>
+                        <span class="ticks">&nbsp;</span>
+                    </div>
+        
+                    <div class="suggestions__field">
+                        <img src="img/img-4.jpg" class="suggestions__pic" alt="suggetions pic">
+                        <span>Azumara</span>
+                        <span class="ticks">&nbsp;</span>
+                    </div>
+                </div>
+        
+                <div class="navigation__features">
+                    <h2 class="suggestions__text">Explore</h2>
+                    <div class="navigation__features--field">
+                        <svg class="navigation__features--field-trending">
+                            <use href="img/icons.svg#icon-sports-shoe"></use>
+                        </svg>
+                        <span>Trending</span>
+                    </div>
+                    <div class="navigation__features--field">
+                        <svg class="navigation__features--field-trending">
+                            <use href="img/icons.svg#icon-trophy"></use>
+                        </svg>
+                        <span>Sports</span>
+                    </div>
+                    <div class="navigation__features--field">
+                        <svg class="navigation__features--field-trending">
+                            <use href="img/icons.svg#icon-square"></use>
+                        </svg>
+                        <span>Your videos</span>
+                    </div>
+                    <div class="navigation__features--field">
+                        <svg class="navigation__features--field-trending">
+                            <use href="img/icons.svg#icon-alarm"></use>
+                        </svg>
+                        <span>News</span>
+                    </div>
+                    <div class="navigation__features--field">
+                        <svg class="navigation__features--field-trending">
+                            <use href="img/icons.svg#icon-thumbs-up"></use>
+                        </svg>
+                        <span>Liked Videos</span>
+                    </div>
+                </div>
+        
+                <div class="navigation__features">
+                    <div class="navigation__features--field">
+                        <svg class="navigation__features--field-home">
+                            <use href="img/icons.svg#icon-cog"></use>
+                        </svg>
+                        <span>Settings</span>
+                    </div>
+        
+                    <div class="navigation__features--field">
+                        <svg class="navigation__features--field-short">
+                            <use href="img/icons.svg#icon-flag"></use>
+                        </svg>
+                        <span>Report history</span>
+                    </div>
+        
+                    <div class="navigation__features--field">
+                        <svg class="navigation__features--field-subscription">
+                            <use href="img/icons.svg#icon-exclamation-outline"></use>
+                        </svg>
+                        <span>Help</span>
+                    </div>             
+                </div>
+            </section>        
+            
+            <section class="functions">
+                <button class="btn btn__inline btn__inline--active" type="button" title="Watch">
+                    <h2>All</h2>
+                </button>
+                <button class="btn btn__inline" type="button" title="Watch">
+                    <h2>Music</h2>
+                </button>
+                <button class="btn btn__inline" type="button" title="Watch">
+                    <h2>Mixes</h2>
+                </button>
+                <button class="btn btn__inline" type="button" title="Watch">
+                    <h2>Highlife</h2>
+                </button>
+                <button class="btn btn__inline" type="button" title="Watch">
+                    <h2>Live</h2>
+                </button>
+                <button class="btn btn__inline" type="button" title="Watch">
+                    <h2>Gaming</h2>
+                </button>
+                <button class="btn btn__inline" type="button" title="Watch">
+                    <h2>Contemporary Worship Music</h2>
+                </button>
+                <button class="btn btn__inline" type="button" title="Watch">
+                    <h2>K1 De Ultimate</h2>
+                </button>
+                <button class="btn btn__inline" type="button" title="Watch">
+                    <h2>Troops</h2>
+                </button>
+                <button class="btn btn__inline" type="button" title="Watch">
+                    <h2>Television Series</h2>
+                </button>
+            </section>
+        
+            <section class="content" id="home_video_list">
+
+            </section>
+        
+            <section class="shorts">
+                <div class="navigation__features--field shorts__text">
+                    <svg class="navigation__features--field-home">
+                        <use href="img/icons.svg#icon-film"></use>
+                    </svg>
+                    <p>Shorts</p>
+                </div>
+                
+                <div class="shorts__video--1">
+                    <div class="video">
+                        <video title="play video" controls>
+                            <source src="vidShorts/Dj_Alonso_mix.mp4" type="video/mp4">
+                            Your brower is not supported
+                        </video>
+                    </div>             
+                    <div class="shorts__description">
+                        <h3>Dj_Alonso_mix (2020)</h3>
+                        <p>1.4k views</p>               
+                    </div>
+                </div>
+        
+                <div class="shorts__video--2">
+                    <div class="video">
+                        <video title="play video" controls>
+                            <source src="vidShorts/friday_night_likee.mp4" type="video/mp4">
+                            Your brower is not supported
+                        </video>
+                    </div>             
+                    <div class="shorts__description">
+                        <h3>Friday_night_likee</h3>
+                        <p>459 views</p>               
+                    </div>
+                </div>
+                
+                <div class="shorts__video--3">
+                    <div class="video">
+                        <video title="play video" controls>
+                            <source src="vidShorts/Dance_steps_likee.mp4" type="video/mp4">
+                            Your brower is not supported
+                        </video>
+                    </div>             
+                    <div class="shorts__description">
+                        <h3>Dance_steps_likee</h3>
+                        <p>1.4M views</p>               
+                    </div>
+                </div>
+        
+                <div class="shorts__video--4">
+                    <div class="video">
+                        <video title="play video" controls>
+                            <source src="vidShorts/Best_Female_Bass_Guitarist.mp4" type="video/mp4">
+                            Your brower is not supported
+                        </video>
+                    </div>             
+                    <div class="shorts__description">
+                        <h3>Best_female_bass_guitarist</h3>
+                        <p>926 views</p>               
+                    </div>
+                </div>
+        
+                <div class="shorts__video--5">
+                    <div class="video">
+                        <video title="play video" autoplay controls>
+                            <source src="vidShorts/Thank_God_for_life.mp4" type="video/mp4">
+                            Your brower is not supported
+                        </video>
+                    </div>             
+                    <div class="shorts__description">
+                        <h3>Thank_God_for_life</h3>
+                        <p>2.4M views</p>               
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="views" id="player">
+            
+        </div>
+        <!-- <div class="views" >        
+            <section class="watch">
+                <div class="current__watch">
+                    <div class="current__watch--video">
+                        <div class="video">
+                            <video title="play video" autoplay controls>
+                                <source src="vid/Never_Back_Down_No_Surrender_(2016).mp4" type="video/mp4">
+                                Your brower is not supported
+                            </video>
+                        </div>
+                        <h3 class="current__watch--title">Never Back Down No Surrender (2016) Latest Nollywood Movie</h3>
+                        <div class="info">
+                            <div class="video__description info__description">
+                                <img src="img/img-5.jpg" class="video__description--pic" alt="Artist pic">
+                                <div>     
+                                    <h2 class="channel">Showmax TV - Nigerian Nollywood</h2>
+                                    <p class="subscribers">310K subscribers</p>
+                                </div>               
+                            </div>
+                            <button class="btn info__sub" type="button" title="Subscribe">
+                                <h2>subscribe</h2>
+                            </button>
+                            <button class="btn info__btn" type="button" title="Like">
+                                <svg class="navigation__features--field-home">
+                                    <use href="img/icons.svg#icon-thumbs-up"></use>
+                                </svg>
+                                <span class="info__likes">2.2k</span>
+                                <svg class="navigation__features--field-home">
+                                    <use href="img/icons.svg#icon-thumbs-down"></use>
+                                </svg>
+                            </button>
+        
+                            <button class="btn info__btn" type="button" title="Share">
+                                <svg class="navigation__features--field-home">
+                                    <use href="img/icons.svg#icon-arrow-forward-outline"></use>
+                                </svg>
+                                <span class="info__likes">Share</span>
+                            </button>
+        
+                            <button class="btn info__btn" type="button" title="Download">
+                                <svg class="navigation__features--field-home">
+                                    <use href="img/icons.svg#icon-download"></use>
+                                </svg>
+                                <span class="info__likes">Download</span>
+                            </button>
+                            <button class="btn info__more" type="button" title="More">
+                                <svg class="navigation__features--field-home">
+                                    <use href="img/icons.svg#icon-dots-three-horizontal"></use>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="current__watch--description">
+                            <div class="current__views">
+                                <h4>5.8M views 3 months ago</h4>
+                                <span>#hollywoodmovie #neverbackdown-nosurrender #thrillermovie</span>
+                            </div>                     
+                            <span>In this video we are going to look at the common uniforms, weapons, gear and equipment of the men who were apart of the Long Range Reconnaissance Patrol (LRRP) of the Vietnam War.</span>
+                        </div>
+                        
+                        <div class="comment">
+                            <span>1,264 Comments</span>
+                            <div class="comment__icon" title="Sort comments">
+                                <svg >
+                                    <use href="img/icons.svg#icon-sort"></use>
+                                </svg>
+                                <p class="comment__sort">Sort by</p>
+                            </div>
+                        </div>
+                        <div class="comment__type">
+                            <img src="img/img-1.jpeg" alt="user" class="header__user" title="User">
+                            <input type="text" placeholder="Add a comment..." class="comment__add">
+                        </div>                           
+                    </div>
+                </div>
+        
+                <div class="watch__split">
+                    <div class="current__comments">
+                        <img src="img/img-5.jpg" class="video__description--pic current__comments-pic" alt="Artist pic">
+        
+                        <div class="current__views current__comments-views">
+                            <h4>@limasierraone7107</h4>
+                            <span>1 year ago</span>
+                        </div>
+                        
+                        <div class="current__comments-all">
+                            <span>It is uncanny that I have been putting together a lrrp setup over the past few months and this video comes out. This helped fill in some of the gaps about individual equipment and it really helps. Thanks to everyone that is involved in the making of these videos. Let's keep history alive brothers!</span>
+                            <div class="comment__icon">
+                                <svg >
+                                    <use href="img/icons.svg#icon-thumbs-up" title="Like"></use>
+                                </svg>
+                                <p class="comment__likes">123</p>
+                                <svg >
+                                    <use href="img/icons.svg#icon-thumbs-down" title="Dislike"></use>
+                                </svg>
+                                <button class="btn">                         
+                                    <h2 class="comment__likes-reply">Reply</h2>                           
+                                </button>
+                            </div>
+                            <div class="comment__icon comment__icon-color">
+                                <svg >
+                                    <use href="img/icons.svg#icon-triangle-right" title="Like"></use>
+                                </svg>
+                                <p class="comment__icon comment__icon-reply">63 replies</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="current__comments">
+                        <img src="img/img-2.jpg" class="video__description--pic current__comments-pic" alt="Artist pic">
+        
+                        <div class="current__views current__comments-views">
+                            <h4>
+                                @Spike-13</h4>
+                            <span>3 years ago</span>
+                        </div>
+                        
+                        <div class="current__comments-all">
+                            <span>I love Vietnam era equipment, the perfect mix of old and new. I'll show this to my 86 year old dad he's a Vietnam combat vet. He was in 25th infantry, 38th scout dog platoon, 101st and 82nd airborne among others over the years</span>
+                            <div class="comment__icon">
+                                <svg >
+                                    <use href="img/icons.svg#icon-thumbs-up" title="Like"></use>
+                                </svg>
+                                <p class="comment__likes">26</p>
+                                <svg >
+                                    <use href="img/icons.svg#icon-thumbs-down" title="Dislike"></use>
+                                </svg>
+                                <button class="btn">                         
+                                    <h2 class="comment__likes-reply">Reply</h2>                           
+                                </button>
+                            </div>
+                            <div class="comment__icon comment__icon-color">
+                                <svg >
+                                    <use href="img/icons.svg#icon-triangle-right" title="Like"></use>
+                                </svg>
+                                <p class="comment__icon comment__icon-reply">8 replies</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="current__comments">
+                        <img src="img/img-3.jpg" class="video__description--pic current__comments-pic" alt="Artist pic">
+        
+                        <div class="current__views current__comments-views">
+                            <h4>@suspense8282</h4>
+                            <span>3 months ago</span>
+                        </div>
+                        
+                        <div class="current__comments-all">
+                            <span>Another rucksack which is commonly overlooked, is the M1952 Mountain Ruck, it was used by SF, LRRP's etc, Early to even late war in some units, it's about the size of the tropical, only downside is the frame which was commonly ditched.</span>
+                            <div class="comment__icon">
+                                <svg >
+                                    <use href="img/icons.svg#icon-thumbs-up" title="Like"></use>
+                                </svg>
+                                <p class="comment__likes">236</p>
+                                <svg >
+                                    <use href="img/icons.svg#icon-thumbs-down" title="Dislike"></use>
+                                </svg>
+                                <button class="btn">                         
+                                    <h2 class="comment__likes-reply">Reply</h2>                           
+                                </button>
+                            </div>
+                            <div class="comment__icon comment__icon-color">
+                                <svg >
+                                    <use href="img/icons.svg#icon-triangle-right" title="Like"></use>
+                                </svg>
+                                <p class="comment__icon comment__icon-reply">45 replies</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="current__comments">
+                        <img src="img/img-6.png" class="video__description--pic current__comments-pic" alt="Artist pic">
+        
+                        <div class="current__views current__comments-views">
+                            <h4>@kwiturbitchin5277</h4>
+                            <span>8 days ago</span>
+                        </div>
+                        
+                        <div class="current__comments-all">
+                            <span>I think I've flown in this very same Huey at an air show in Georgia in 2018. It was marked aircraft 104 of the 229th AHB flown and maintained by the Army Aviation Heritage Foundation. Great experience all around and went back the next year and flew with them again. I highly recommend to anyone to take a ride in a Huey. The sights and sound of the Huey is incredible!</span>
+                            <div class="comment__icon">
+                                <svg >
+                                    <use href="img/icons.svg#icon-thumbs-up" title="Like"></use>
+                                </svg>
+                                <p class="comment__likes">102</p>
+                                <svg >
+                                    <use href="img/icons.svg#icon-thumbs-down" title="Dislike"></use>
+                                </svg>
+                                <button class="btn">                         
+                                    <h2 class="comment__likes-reply">Reply</h2>                           
+                                </button>
+                            </div>
+                            <div class="comment__icon comment__icon-color">
+                                <svg >
+                                    <use href="img/icons.svg#icon-triangle-right" title="Like"></use>
+                                </svg>
+                                <p class="comment__icon comment__icon-reply">73 replies</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="current__comments">
+                        <img src="img/img-4.jpg" class="video__description--pic current__comments-pic" alt="Artist pic">
+        
+                        <div class="current__views current__comments-views">
+                            <h4>@MrBikboi</h4>
+                            <span>9 years ago</span>
+                        </div>
+                        
+                        <div class="current__comments-all">
+                            <span>Another great video Brent, the fact that we get this level of effort and knowledge for free is fantastic! Can't forget Bruce too! Really wish I had the opportunity to go and train at One Shepherd. Such an awesome organization, migrate to Canada? :</span>
+                            <div class="comment__icon">
+                                <svg >
+                                    <use href="img/icons.svg#icon-thumbs-up" title="Like"></use>
+                                </svg>
+                                <p class="comment__likes">10</p>
+                                <svg >
+                                    <use href="img/icons.svg#icon-thumbs-down" title="Dislike"></use>
+                                </svg>
+                                <button class="btn">                         
+                                    <h2 class="comment__likes-reply">Reply</h2>                           
+                                </button>
+                            </div>
+                            <div class="comment__icon comment__icon-color">
+                                <svg >
+                                    <use href="img/icons.svg#icon-triangle-right" title="Like"></use>
+                                </svg>
+                                <p class="comment__icon comment__icon-reply">2 replies</p>
+                            </div>
+                        </div>
+                    </div>                       
+                </div>
+            </section>      
+        
+            <section class="similar">
+                <div>
+                    <button class="btn btn__inline btn__inline--active" type="button" title="Watch">
+                        <h2>All</h2>
+                    </button>
+                    <button class="btn btn__inline" type="button" title="Watch">
+                        <h2>From Brent</h2>
+                    </button>
+                    <button class="btn btn__inline" type="button" title="Watch">
+                        <h2>Troops</h2>
+                    </button>
+                    <button class="btn btn__inline" type="button" title="Watch">
+                        <h2>thrillers</h2>
+                    </button>
+                    <button class="btn btn__inline" type="button" title="Watch">
+                        <h2>Related</h2>
+                    </button>                              
+                </div>
+        
+                <div class="similar__video--1">
+                    <div class="video">
+                        <video title="play video" autoplay controls>
+                            <source src="similarVid/The_Wolf_of_Wall_Street_(2012).mp4" type="video/mp4">
+                            Your brower is not supported
+                        </video>
+                    </div>             
+                    <div class="similar__description">
+                        <h3>The Wolf of Wall Street (2012)</h3>
+                        <span>Nollywood Base TV</span>
+                        <p>1.6k views . 2 months ago</p>
+                    </div>                                                   
+                </div>
+                <div class="similar__video--2">
+                    <div class="video">
+                        <video title="play video" autoplay controls>
+                            <source src="similarVid/Heavens_War_(2018)_WEB-DL_high_(fzmovies.net).mp4" type="video/mp4">
+                            Your brower is not supported
+                        </video>
+                    </div>             
+                    <div class="similar__description">
+                        <h3>Heavens War (2018)</h3>
+                        <span>MagicNollyTV</span>
+                        <p>1k views . 4 months ago</p>
+                    </div>                                                   
+                </div>
+                <div class="similar__video--3">
+                    <div class="video">
+                        <video title="play video" autoplay controls>
+                            <source src="similarVid/Justice_League_(2017)_HDRip_high_(fzmovies.net)-1-1.mp4" type="video/mp4">
+                            Your brower is not supported
+                        </video>
+                    </div>             
+                    <div class="similar__description">
+                        <h3>Justice League (2017)</h3>
+                        <span>NollyMax TV</span>
+                        <p>900 views . 2 weeks ago</p>
+                    </div>                                                   
+                </div>
+                <div class="similar__video--4">
+                    <div class="video">
+                        <video title="play video" autoplay controls>
+                            <source src="similarVid/The Hottest Ariaria praise in the world (African praise ) part 2.mp4" type="video/mp4">
+                            Your brower is not supported
+                        </video>
+                    </div>             
+                    <div class="similar__description">
+                        <h3>The Hottest Ariaria praise in the world</h3>
+                        <span>PRIME MEGA ENTERTAINMENTS</span>
+                        <p>4k views . 7 years ago</p>
+                    </div>                                                   
+                </div>
+                <div class="similar__video--5">
+                    <div class="video">
+                        <video title="play video" autoplay controls>
+                            <source src="similarVid/Take_Point_(2018)_HDRip_high_(fzmovies.net).mp4" type="video/mp4">
+                            Your brower is not supported
+                        </video>
+                    </div>             
+                    <div class="similar__description">
+                        <h3>Take Point (2018)</h3>
+                        <span>Nollywood Namaste TV</span>
+                        <p>320 views . 3 days ago</p>
+                    </div>                                                   
+                </div>
+                <div class="similar__video--6">
+                    <div class="video">
+                        <video title="play video" autoplay controls>
+                            <source src="similarVid/Mechanic_Resurrection.mp4" type="video/mp4">
+                            Your brower is not supported
+                        </video>
+                    </div>             
+                    <div class="similar__description">
+                        <h3>Mechanic Resurrection</h3>
+                        <span>MovieTime Hollywood</span>
+                        <p>2.3k views . 5 days ago</p>
+                    </div>                                                   
+                </div>
+                <div class="similar__video--7">
+                    <div class="video">
+                        <video title="play video" autoplay controls>
+                            <source src="similarVid/The_Matchmakers_Playbook_(2018)_HDRip_high_(fzmovies.net)_52ffe1b10c3c3877fe1917ebb0ce6b83.mp4" type="video/mp4">
+                            Your brower is not supported
+                        </video>
+                    </div>             
+                    <div class="similar__description">
+                        <h3>The Matchmakers Playbook (2018)</h3>
+                        <span>Nollywood Base TV</span>
+                        <p>500k views . 14 months ago</p>
+                    </div>                                                   
+                </div>
+                <div class="similar__video--8">
+                    <div class="video">
+                        <video title="play video" autoplay controls>
+                            <source src="similarVid/Mortal_Kombat_2021_(2021)_WEB-DL_high_(fzmovies.net)_eb45c991dccbb8255561f139b5681a4d.mp4" type="video/mp4">
+                            Your brower is not supported
+                        </video>
+                    </div>             
+                    <div class="similar__description">
+                        <h3>Mortal Kombat (2021)</h3>
+                        <span>Brekete Family</span>
+                        <p>841 views . 6 weeks ago</p>
+                    </div>                                                   
+                </div>
+                <div class="similar__video--9">
+                    <div class="video">
+                        <video title="play video" autoplay controls>
+                            <source src="similarVid/Without_Remorse_(2021)_WEB-DL_high_(fzmovies.net)_411e9d9f61fc912e79eeb1044b61953b.mp4" type="video/mp4">
+                            Your brower is not supported
+                        </video>
+                    </div>             
+                    <div class="similar__description">
+                        <h3>Without Remorse (2021)</h3>
+                        <span>Gon King</span>
+                        <p>6.8k views . 8 months ago</p>
+                    </div>                                                   
+                </div>
+                <div class="similar__video--10">
+                    <div class="video">
+                        <video title="play video" autoplay controls>
+                            <source src="similarVid/Lady_Bloodfight_2017_(2017).mp4" type="video/mp4">
+                            Your brower is not supported
+                        </video>
+                    </div>             
+                    <div class="similar__description">
+                        <h3>Blood Fight (2017)</h3>
+                        <span>Bollywood TV</span>
+                        <p>23 views . 1 month ago</p>
+                    </div>                                                   
+                </div>       
+            </section>
+        </div> -->
+    </body> 
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- make use of the controls and auto when implementing javascript
+    only fzmovies can play in my coding
+
+
+    <div class="video">
+        <video width="640" height="360" title="play video" autoplay controls>
+            <source src="vid/Take_Point_(2018)_HDRip_high_(fzmovies.net).mp4" type="video/mp4">
+            Your brower is not supported
+        </video>
+        <span>2:12:16</span>
+    </div> 
+
+-->
+
+
+
+
+
+<!--
+
+const video = [
+    {
+        id: 'vd12823',
+        name: 'dhfdhfdhf',
+        dateUploade: '12/10/2023',
+        description: 'gasoeshff fesjhfe  fhjfe fjewf ewfjefew fjhwfgf wegfhjewg dwgjweg ewgjew gjwg ',
+        path: 'vid/How to make rocket',
+        channel: 'Sun Rise',
+        view: 3421,
+        like: 341,
+        comments: [
+            {
+                user: 'John Megafuli',
+                comment: 'Really cool video. the best I have seen'
+            },
+            {
+                user: 'John Megafuli',
+                comment: 'Really cool video. the best I have seen'
+            },
+            {
+                user: 'John Megafuli',
+                comment: 'Really cool video. the best I have seen'
+            },
+            {
+                user: 'John Megafuli',
+                comment: 'Really cool video. the best I have seen'
+            },
+            {
+                user: 'John Megafuli',
+                comment: 'Really cool video. the best I have seen'
+            },
+        ]
+    },
+    {
+        id: 'vd12823',
+        name: 'dhfdhfdhf',
+        dateUploade: '12/10/2023',
+        description: 'gasoeshff fesjhfe  fhjfe fjewf ewfjefew fjhwfgf wegfhjewg dwgjweg ewgjew gjwg ',
+        path: 'vid/How to make rocket',
+        channel: 'Sun Rise',
+        view: 3421,
+        like: 341,
+        comments: [
+            {
+                user: 'John Megafuli',
+                comment: 'Really cool video. the best I have seen'
+            },
+            {
+                user: 'John Megafuli',
+                comment: 'Really cool video. the best I have seen'
+            },
+            {
+                user: 'John Megafuli',
+                comment: 'Really cool video. the best I have seen'
+            },
+            {
+                user: 'John Megafuli',
+                comment: 'Really cool video. the best I have seen'
+            },
+            {
+                user: 'John Megafuli',
+                comment: 'Really cool video. the best I have seen'
+            },
+        ]
+    },
+    {
+        id: 'vd12823',
+        name: 'dhfdhfdhf',
+        dateUploade: '12/10/2023',
+        description: 'gasoeshff fesjhfe  fhjfe fjewf ewfjefew fjhwfgf wegfhjewg dwgjweg ewgjew gjwg ',
+        path: 'vid/How to make rocket',
+        channelId: 'cnl31533',
+        view: 3421,
+        like: 341,
+        comments: [
+            {
+                user: 'John Megafuli',
+                comment: 'Really cool video. the best I have seen'
+            },
+            {
+                user: 'John Megafuli',
+                comment: 'Really cool video. the best I have seen'
+            },
+            {
+                user: 'John Megafuli',
+                comment: 'Really cool video. the best I have seen'
+            },
+            {
+                user: 'John Megafuli',
+                comment: 'Really cool video. the best I have seen'
+            },
+            {
+                user: 'John Megafuli',
+                comment: 'Really cool video. the best I have seen'
+            },
+        ]
+    },
+]
+
+const  channel = [
+{
+    id: 'cnl31533',
+    name: '',
+    description: ''
+}
+]
+
+const history = []
+const short = []
+
+let similarVideo = []
+
+const channelId = ''
+similarVideo = video.filter(vid=>vid.channel === channelId )
+-->
